@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+  * {
+      box-sizing: border-box;
+      font-family: "Reddit Sans", sans-serif;
+  }
+
+
+#menu-appbar{
+  width: 600px;
+}
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  .bgContainer {
+    background-image: url("../public/motifbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
